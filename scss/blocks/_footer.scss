@@ -1,0 +1,57 @@
+// *footer
+.footer{
+    max-width: 100%;
+    min-height: 443px;
+    background-color: var(--section-color);
+}
+.footer__content{
+    padding-top: 105px;
+    display: flex;
+    column-gap: 178px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    margin-bottom: 110px;
+}
+.footer__company-description{
+    max-width: 189px;
+}
+.footer__title-company{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 153%;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.footer__description-company{
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+.menu-footer__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 153%;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+.menu-footer__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.menu-footer__link{
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--main-color);
+    text-transform: capitalize;
+    transition: color 0.2s ease;
+    &:hover{
+        color: var(--accent-color);
+    }
+}
+.footer__copywriting-text{
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+}
