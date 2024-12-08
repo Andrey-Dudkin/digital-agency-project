@@ -6,6 +6,7 @@
     width: clamp(449px,52vw,679px);
     height: clamp(449px,52vw,679px);
     background: url("../../images/decoration-header.png") no-repeat;
+    filter: blur(28px);
     position: absolute;
     top: 0;
     left: 0;

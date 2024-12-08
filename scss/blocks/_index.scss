@@ -34,21 +34,28 @@
     width: clamp(48px,8vw,98px);
 }
 
-.page-decoration{
+.container-decoration-elem{
     width: clamp(449px,52vw,679px);
     height: clamp(449px,52vw,679px);
-    // width: 679px;
-    // height: 679px;
-    background-color: rgba(142, 173, 213, 0.3);
-    border-radius: 50%;
     position: absolute;
-    top: 170%;
-    right: -366px;
-    filter: blur(50px);
+    top: -463px;
+    right: 0;
+    overflow-x: hidden;
+}
+.decoration{
+    width: clamp(449px, 52vw, 679px);
+    height: clamp(449px, 52vw, 679px);
+    background-color: rgba(142, 173, 213, 0.3);
+    border-radius: 359px;
+    filter: blur(28px);
+    position: absolute;
+    top: 0;
+    right: -69%;
 }
 // *branding design and custom plugin
 .branding-design,
 .custom-plugin{
+    position: relative;
     padding-bottom: 136px;
 }
 .branding-design__content,

@@ -47,7 +47,6 @@ body{
     font-family: var(--main-font);
     font-weight: 300;
     color: var(--main-color);
-    overflow-x: hidden;
 }
 .container{
     max-width: 1106px;
@@ -155,6 +154,14 @@ body{
         padding-bottom: 88px;
     }
 
+    .container-decoration-elem {
+        position: absolute;
+        top: -137px;
+    }
+    .decoration{
+        position: absolute;
+        right: -59%;
+    }
     // *branding design and custom plugin
     .branding-design,
     .custom-plugin{
