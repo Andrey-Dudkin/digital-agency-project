@@ -40,9 +40,6 @@
     --accent-color: #8eadd5;
     --section-color: #f6f6f6;
 }
-// *{
-//     border: solid 2px var(--accent-color);
-// }
 body{
     font-family: var(--main-font);
     font-weight: 300;
@@ -154,14 +151,6 @@ body{
         padding-bottom: 88px;
     }
 
-    .container-decoration-elem {
-        position: absolute;
-        top: -137px;
-    }
-    .decoration{
-        position: absolute;
-        right: -59%;
-    }
     // *branding design and custom plugin
     .branding-design,
     .custom-plugin{
